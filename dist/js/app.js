@@ -130,7 +130,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			return checkDeferredModules();
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkhtml_sass_first"] = self["webpackChunkhtml_sass_first"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunknode_sass_teambit"] = self["webpackChunknode_sass_teambit"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 		

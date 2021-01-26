@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    border-bottom: 1px solid black;
+        a {
+            margin: 10px;
+            &:hover {
+                color: lightgrey;
+            }
+        }
+        #sign-up {
+            padding: 10px;
+            border-radius: 5px;
+            color: blue;
+            border: 1px solid blue;
+            font-weight: bold;
+            img {
+                height: 15px;
+            }
+            &:hover {
+                background: blue;
+                color: white;
+            }
+        }
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    .banner-sx {
+        padding-top: 50px;
+        width: 50%;
+        h1 {
+            font-size: 50px;
+        }
+    }
+    .banner-dx {
+        padding-top: 50px;
+        img {
+            height: 500px;
+        }
+    }
+}
