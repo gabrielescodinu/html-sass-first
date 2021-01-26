@@ -12,39 +12,52 @@ nav a {
 nav a:hover {
   color: lightgrey;
 }
-nav #sign-up {
+
+#sign-up {
   padding: 10px;
   border-radius: 5px;
-  color: blue;
-  border: 1px solid blue;
+  color: #2C4792;
+  border: 1px solid #2C4792;
   font-weight: bold;
 }
-nav #sign-up img {
+#sign-up img {
   height: 15px;
 }
-nav #sign-up:hover {
-  background: blue;
+#sign-up:hover {
+  background: #2C4792;
   color: white;
 }
 
 .banner {
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
   width: 80%;
   margin: auto;
+  padding-top: 50px;
 }
 .banner .banner-sx {
-  padding-top: 50px;
-  width: 50%;
+  width: 40%;
 }
 .banner .banner-sx h1 {
   font-size: 50px;
 }
-.banner .banner-dx {
+.banner .banner-sx p {
+  font-size: 30px;
   padding-top: 50px;
 }
 .banner .banner-dx img {
-  height: 500px;
+  width: 600px;
+}
+
+.subscribe {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.subscribe a {
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 * {
@@ -52,6 +65,7 @@ nav #sign-up:hover {
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato";
+  color: #58402C;
 }
 
 a {
@@ -67,17 +81,82 @@ a {
     visibility: visible;
   }
 }
-@media only screen and (max-width: 998px) {
-  nav a {
-    display: none;
-  }
-
-  .fa-bars {
-    visibility: visible;
-  }
-}
 @media only screen and (min-width: 998px) {
   .fa-bars {
     visibility: hidden;
   }
+}
+.traditional-container {
+  background-color: #FFE7D2;
+  text-align: center;
+  margin-top: 50px;
+}
+.traditional-container h1 {
+  padding: 50px;
+  color: #58402C;
+}
+.traditional-container p {
+  color: #58402C;
+}
+.traditional-container img {
+  margin-top: 100px;
+  height: 400px;
+}
+.traditional-container hr {
+  margin: 50px;
+}
+
+.traditional {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.traditional img {
+  margin: 50px;
+  height: 200px;
+}
+
+.feedback {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 50px;
+}
+.feedback p {
+  font-size: 25px;
+  width: 300px;
+  margin: 20px;
+}
+.feedback h1 {
+  margin: 20px;
+  padding-top: 20px;
+}
+.feedback a {
+  margin: 20px;
+  font-size: 25px;
+  color: #2C4792;
+}
+.feedback a:hover {
+  color: lightgrey;
+}
+.feedback i {
+  color: #2C4792;
+}
+
+.screen {
+  height: 500px;
+}
+
+.icon-feedback {
+  display: block;
+  padding: 50px;
+  height: 300px;
+}
+
+.end {
+  justify-content: flex-end;
 }

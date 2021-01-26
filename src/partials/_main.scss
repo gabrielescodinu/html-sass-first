@@ -1,0 +1,74 @@
+// traditional
+.traditional-container {
+    background-color: #FFE7D2;
+    text-align: center;
+    margin-top: 50px;
+    h1 {
+        padding: 50px;
+        color: #58402C;
+    }
+    p {
+        color: #58402C;
+    }
+    img {
+        margin-top: 100px;
+        height: 400px;
+    }
+    hr {
+        margin: 50px;
+    }
+}
+.traditional {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+    img {
+        margin: 50px;
+        height: 200px;
+    }
+}  
+
+// feedback
+.feedback {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 50px;
+    p {
+        font-size: 25px;
+        width: 300px;
+        margin: 20px;
+    }
+    h1 {
+        margin: 20px;
+        padding-top: 20px;
+    }
+    a {
+        margin: 20px;
+        font-size: 25px;
+        color: #2C4792;
+        &:hover {
+            color: lightgrey;
+        }
+    }
+    i {
+        color: #2C4792;
+    }
+}
+.screen {
+    height: 500px;
+}
+.icon-feedback {
+    display: block;
+    padding: 50px;
+    height: 300px;
+}
+.end {
+    justify-content: flex-end;
+}
+
+// founders

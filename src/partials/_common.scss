@@ -3,21 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Lato";
+    color: #58402C;
 }
 a {
     text-decoration: none;
 }
 
 @media only screen and (max-width: 550px) {
-    nav a {
-      display: none;
-    }
-    .fa-bars {
-        visibility: visible;
-    }
-}
-
-@media only screen and (max-width: 998px) {
     nav a {
       display: none;
     }
