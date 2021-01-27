@@ -10,8 +10,20 @@ a {
     text-decoration: none;
 }
 
-// media screen
+// media screen mobile
 @media only screen and (max-width: 550px) {
+    nav a {
+      display: none;
+    }
+    .fa-bars {
+        visibility: visible;
+    }
+    .resize {
+        height: 100px;
+    }
+}
+// media screen ipad
+@media only screen and (max-width: 998px) {
     nav a {
       display: none;
     }
@@ -20,6 +32,7 @@ a {
     }
 }
 
+// media screen desktop
 @media only screen and (min-width: 998px) {
     .fa-bars {
         visibility: hidden;

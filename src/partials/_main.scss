@@ -20,10 +20,11 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    text-align: center;
     img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
         margin: 50px;
-        height: 200px;
     }
 }  
 
@@ -59,7 +60,9 @@
     }
 }
 .screen {
-    height: 500px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
 }
 .icon-feedback {
     display: block;
@@ -84,7 +87,9 @@
     background-color: white;
     padding: 30px;
     margin-top: 50px;
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
     border: 1px solid #2C4792;
     border-radius: 10px;
     div {
