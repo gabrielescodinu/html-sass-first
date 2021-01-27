@@ -62,15 +62,15 @@ a {
 #sign-up {
   padding: 10px;
   border-radius: 5px;
-  color: #2C4792;
-  border: 1px solid #2C4792;
+  color: #922C2C;
+  border: 1px solid #922C2C;
   font-weight: bold;
 }
 #sign-up img {
   height: 15px;
 }
 #sign-up:hover {
-  background: #2C4792;
+  background: #922C2C;
   color: white;
   transition: 0.5s;
 }
@@ -79,9 +79,9 @@ a {
   padding: 10px;
   border-radius: 5px;
   color: white;
-  border: 1px solid #2C4792;
+  border: 1px solid #922C2C;
   font-weight: bold;
-  background-color: #2C4792;
+  background-color: #922C2C;
 }
 #sign-up2 img {
   height: 15px;
@@ -130,7 +130,7 @@ a {
 }
 
 .traditional-container {
-  background-color: #FFE7D2;
+  background-color: #93C7D0;
   text-align: center;
   margin-top: 50px;
 }
@@ -178,7 +178,7 @@ a {
 .feedback a {
   margin: 20px;
   font-size: 25px;
-  color: #2C4792;
+  color: #922C2C;
 }
 .feedback a:hover {
   color: lightgrey;
@@ -187,7 +187,7 @@ a {
   color: lightgrey;
 }
 .feedback i {
-  color: #2C4792;
+  color: #922C2C;
 }
 
 .screen {
@@ -208,7 +208,7 @@ a {
 
 .founders-container {
   text-align: center;
-  background-color: #FFE7D2;
+  background-color: #93C7D0;
   margin: auto;
   padding-top: 50px;
   display: flex;
