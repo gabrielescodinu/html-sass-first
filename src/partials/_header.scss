@@ -9,9 +9,9 @@ nav {
     a {
         margin: 10px;
         &:hover {
-            color: lightgrey;
+            color: $colorHover;
             i {
-                color: lightgrey;
+                color: $colorHover;
 
             }
         }
@@ -20,14 +20,14 @@ nav {
 #sign-up {
     padding: 10px;
     border-radius: 5px;
-    color: #2C4792;
-    border: 1px solid #2C4792;
+    color: $colorLink;
+    border: 1px solid $colorLink;
     font-weight: bold;
     img {
         height: 15px;
     }
     &:hover {
-        background: #2C4792;
+        background: $colorLink;
         color: white;
         transition: 0.5s;
     }
@@ -36,9 +36,9 @@ nav {
     padding: 10px;
     border-radius: 5px;
     color: white;
-    border: 1px solid #2C4792;
+    border: 1px solid $colorLink;
     font-weight: bold;
-    background-color: #2C4792;
+    background-color: $colorLink;
     img {
         height: 15px;
     }
@@ -81,7 +81,7 @@ nav {
         margin-right: 20px;
         margin-top: 20px;
         &:hover {
-            color: lightgrey;
+            color: $colorHover;
         }
     }
 }

@@ -1,14 +1,10 @@
 // traditional
 .traditional-container {
-    background-color: #FFE7D2;
+    background-color: $colorBack;
     text-align: center;
     margin-top: 50px;
     h1 {
         padding: 50px;
-        color: #58402C;
-    }
-    p {
-        color: #58402C;
     }
     img {
         margin-top: 100px;
@@ -50,7 +46,7 @@
     a {
         margin: 20px;
         font-size: 25px;
-        color: #2C4792;
+        color: $colorLink;
         &:hover {
             color: lightgrey;
             i {
@@ -59,7 +55,7 @@
         }
     }
     i {
-        color: #2C4792;
+        color: $colorLink;
     }
 }
 .screen {
@@ -76,7 +72,7 @@
 
 // founders
 .founders-container {
-    background-color: #FFE7D2;
+    background-color: $colorBack;
     margin: auto;
     padding-top: 50px;
     display: flex;
