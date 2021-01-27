@@ -12,6 +12,9 @@ nav a {
 nav a:hover {
   color: lightgrey;
 }
+nav a:hover i {
+  color: lightgrey;
+}
 
 #sign-up {
   padding: 10px;
@@ -26,6 +29,24 @@ nav a:hover {
 #sign-up:hover {
   background: #2C4792;
   color: white;
+  transition: 0.5s;
+}
+
+#sign-up2 {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #2C4792;
+  font-weight: bold;
+  background-color: #2C4792;
+}
+#sign-up2 img {
+  height: 15px;
+}
+#sign-up2:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
 }
 
 .banner {
@@ -58,6 +79,9 @@ nav a:hover {
 .subscribe a {
   margin-right: 20px;
   margin-top: 20px;
+}
+.subscribe a:hover {
+  color: lightgrey;
 }
 
 * {
@@ -143,6 +167,9 @@ a {
 .feedback a:hover {
   color: lightgrey;
 }
+.feedback a:hover i {
+  color: lightgrey;
+}
 .feedback i {
   color: #2C4792;
 }
@@ -159,4 +186,85 @@ a {
 
 .end {
   justify-content: flex-end;
+}
+
+.founders-container {
+  background-color: #FFE7D2;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.founders {
+  background-color: white;
+  padding: 30px;
+  margin-top: 50px;
+  width: 500px;
+  border: 1px solid #2C4792;
+  border-radius: 10px;
+}
+.founders div {
+  display: flex;
+  align-items: center;
+}
+.founders div img {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.founders div div {
+  display: flex;
+  flex-direction: column;
+}
+.founders div div h1 {
+  font-size: 20px;
+  color: #2C4792;
+  font-weight: normal;
+}
+
+.founders-subscribe {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+.founders-subscribe a {
+  margin: 20px 20px 0px 20px;
+}
+
+.credits {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+}
+.credits div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+.credits div h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.credits div a {
+  margin: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+.credits div a:hover {
+  color: lightgrey;
+}
+.credits img {
+  padding-right: 20px;
+}
+.credits span {
+  color: #2C4792;
+  font-weight: bold;
+}
+.credits p {
+  width: 200px;
+  padding-top: 40px;
 }

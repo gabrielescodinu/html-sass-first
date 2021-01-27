@@ -53,6 +53,9 @@
         color: #2C4792;
         &:hover {
             color: lightgrey;
+            i {
+                color: lightgrey;
+            }
         }
     }
     i {
@@ -72,3 +75,46 @@
 }
 
 // founders
+.founders-container {
+    background-color: #FFE7D2;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.founders {
+    background-color: white;
+    padding: 30px;
+    margin-top: 50px;
+    width: 500px;
+    border: 1px solid #2C4792;
+    border-radius: 10px;
+    div {
+        display: flex;
+        align-items: center;
+        img {
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-size: 20px;
+                color: #2C4792;
+                font-weight: normal;
+            }
+        }       
+    }
+}
+
+.founders-subscribe {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    a {
+        margin: 20px 20px 0px 20px;
+    }
+}

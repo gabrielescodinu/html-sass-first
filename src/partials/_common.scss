@@ -1,3 +1,4 @@
+// common
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ a {
     text-decoration: none;
 }
 
+// media screen
 @media only screen and (max-width: 550px) {
     nav a {
       display: none;
